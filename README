@@ -1,0 +1,18 @@
+//
+//  README
+//  Amit Kalra
+//
+//  Created by Amit Kalra on 4/14/15.
+//  Copyright (c) 2015 Amit Kalra. All rights reserved.
+//
+
+
+Hey, it's Amit here! You can follow this written guide on how to use my application or watch this video : https://youtu.be/4jJ6fFfj9W8
+
+Menu : When you launch the app, you're greeted with my voice and animated pictures of me. You can tap on my name "Amit Kalra" and it'll display my full name. You can scroll left all the way at the bottom, where the social media icons are located and feel free to click on any of the icons. Now, here's the main part, you get three options - About Me, Experience, and Projects. Click on any one of them you'd like. You can always swipe left in order to get back to the Menu.'''
+
+About Me : When you're in the About Me controller, you can tap on the image of volume. That'll bring up my voice reading everything that's in this page. When you see my residence, you can tap on the map and it'll open up in maps. You can also tap on Bay Area, CA and it'll give a breif history of San Francisco. Scrolling down you tap on all the images of my schools and it'll direct you to their website.'' Swipe left anytime to return to the menu.
+
+Projects : When you're in the Projects controller, you can tap on the image of volume. That'll bring up my voice reading everything that's in this page. You can tap on all the images of my projects and that'll link you to their page.' Swipe left anytime to return to the menu.
+
+Experience : When you're in the Experience controller, you can tap on the image of volume. That'll bring up my voice reading everything that's in this page. You can tap on all the images of the programming languages I have down there. Once you press them, it gives you information about these languages. Swipe left anytime to return to the menu.

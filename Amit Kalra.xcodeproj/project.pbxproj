@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5057FEE1ADDD694002905CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5057FED1ADDD694002905CA /* AppDelegate.swift */; };
+		A5057FF01ADDD694002905CA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5057FEF1ADDD694002905CA /* MenuViewController.swift */; };
+		A5057FF31ADDD694002905CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5057FF11ADDD694002905CA /* Main.storyboard */; };
+		A5057FF51ADDD694002905CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5057FF41ADDD694002905CA /* Images.xcassets */; };
+		A50580041ADDD694002905CA /* Amit_KalraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50580031ADDD694002905CA /* Amit_KalraTests.swift */; };
+		A505800E1ADDD6D0002905CA /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505800D1ADDD6D0002905CA /* AboutMeViewController.swift */; };
+		A50580101ADDD6DA002905CA /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505800F1ADDD6DA002905CA /* ProjectsViewController.swift */; };
+		A50580121ADDD6E4002905CA /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50580111ADDD6E4002905CA /* ExperienceViewController.swift */; };
+		A50580451ADDDDEF002905CA /* Amit Kalra Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A50580191ADDDDEF002905CA /* Amit Kalra Icon.png */; };
+		A50580481ADDDDEF002905CA /* Amit Nivedan Kalra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A505801C1ADDDDEF002905CA /* Amit Nivedan Kalra.jpg */; };
+		A505804A1ADDDDEF002905CA /* AMS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A505801E1ADDDDEF002905CA /* AMS.jpg */; };
+		A505804C1ADDDDEF002905CA /* Backward.png in Resources */ = {isa = PBXBuildFile; fileRef = A50580201ADDDDEF002905CA /* Backward.png */; };
+		A505804F1ADDDDEF002905CA /* Blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50580231ADDDDEF002905CA /* Blur.jpg */; };
+		A50580531ADDDDEF002905CA /* Eastin.png in Resources */ = {isa = PBXBuildFile; fileRef = A50580271ADDDDEF002905CA /* Eastin.png */; };
+		A50580541ADDDDEF002905CA /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A50580281ADDDDEF002905CA /* Facebook.png */; };
+		A50580561ADDDDEF002905CA /* Github.png in Resources */ = {isa = PBXBuildFile; fileRef = A505802A1ADDDDEF002905CA /* Github.png */; };
+		A50580591ADDDDEF002905CA /* India Selfie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A505802D1ADDDDEF002905CA /* India Selfie.jpg */; };
+		A505805A1ADDDDEF002905CA /* Instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = A505802E1ADDDDEF002905CA /* Instagram.png */; };
+		A505805C1ADDDDEF002905CA /* Logan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A50580301ADDDDEF002905CA /* Logan.jpeg */; };
+		A505805D1ADDDDEF002905CA /* Lua.png in Resources */ = {isa = PBXBuildFile; fileRef = A50580311ADDDDEF002905CA /* Lua.png */; };
+		A505805F1ADDDDEF002905CA /* Parkour City.png in Resources */ = {isa = PBXBuildFile; fileRef = A50580331ADDDDEF002905CA /* Parkour City.png */; };
+		A50580641ADDDDEF002905CA /* San Fran Selfie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50580381ADDDDEF002905CA /* San Fran Selfie.jpg */; };
+		A50580661ADDDDEF002905CA /* Sound.png in Resources */ = {isa = PBXBuildFile; fileRef = A505803A1ADDDDEF002905CA /* Sound.png */; };
+		A50580681ADDDDEF002905CA /* Swift.png in Resources */ = {isa = PBXBuildFile; fileRef = A505803C1ADDDDEF002905CA /* Swift.png */; };
+		A505806B1ADDDDEF002905CA /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A505803F1ADDDDEF002905CA /* Twitter.png */; };
+		A505806C1ADDDDEF002905CA /* Web.png in Resources */ = {isa = PBXBuildFile; fileRef = A50580401ADDDDEF002905CA /* Web.png */; };
+		A50580711ADDDECE002905CA /* YouTube.png in Resources */ = {isa = PBXBuildFile; fileRef = A50580701ADDDECE002905CA /* YouTube.png */; };
+		A50580771ADDE3B2002905CA /* Avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50580761ADDE3B2002905CA /* Avatar.jpg */; };
+		A50580821ADDEC63002905CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50580811ADDEC63002905CA /* AVFoundation.framework */; };
+		A50580861ADDEEC4002905CA /* SF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50580851ADDEEC4002905CA /* SF.jpg */; };
+		A5184BF71AE1F0F400923560 /* Apple Jumps.png in Resources */ = {isa = PBXBuildFile; fileRef = A5184BF61AE1F0F400923560 /* Apple Jumps.png */; };
+		A5184BF91AE1F92800923560 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5184BF81AE1F92800923560 /* MapKit.framework */; };
+		A5184BFF1AE5DA3A00923560 /* CSS.png in Resources */ = {isa = PBXBuildFile; fileRef = A5184BFE1AE5DA3A00923560 /* CSS.png */; };
+		A5184C011AE5DA5100923560 /* HTML.png in Resources */ = {isa = PBXBuildFile; fileRef = A5184C001AE5DA5100923560 /* HTML.png */; };
+		A532B58C1AE9FEBB004EF0DD /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A532B58B1AE9FEBB004EF0DD /* NotificationCenter.framework */; };
+		A532B5911AE9FEBB004EF0DD /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532B5901AE9FEBB004EF0DD /* TodayViewController.swift */; };
+		A532B5931AE9FEBB004EF0DD /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A532B5921AE9FEBB004EF0DD /* MainInterface.storyboard */; };
+		A532B5961AE9FEBB004EF0DD /* Amit Nivedan Kalra.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A532B5891AE9FEBB004EF0DD /* Amit Nivedan Kalra.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A532B6741AEB3165004EF0DD /* Design.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A532B6711AEB3165004EF0DD /* Design.jpg */; };
+		A5C6211E1AECF0E00032D3C9 /* Air Amit.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5C6211A1AECF0E00032D3C9 /* Air Amit.JPG */; };
+		A5C6211F1AECF0E00032D3C9 /* Ball.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5C6211B1AECF0E00032D3C9 /* Ball.JPG */; };
+		A5C621201AECF0E00032D3C9 /* BTS.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5C6211C1AECF0E00032D3C9 /* BTS.JPG */; };
+		A5C621211AECF0E00032D3C9 /* On the phone.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5C6211D1AECF0E00032D3C9 /* On the phone.JPG */; };
+		A5C621231AECF1CA0032D3C9 /* iPhone Photography.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5C621221AECF1CA0032D3C9 /* iPhone Photography.JPG */; };
+		A5C621261AECF47D0032D3C9 /* Snapchat.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C621241AECF47D0032D3C9 /* Snapchat.png */; };
+		A5C621271AECF47D0032D3C9 /* Stack.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C621251AECF47D0032D3C9 /* Stack.png */; };
+		A5C621291AED3DD80032D3C9 /* README in Resources */ = {isa = PBXBuildFile; fileRef = A5C621281AED3DD80032D3C9 /* README */; };
+		A5C6212B1AED44590032D3C9 /* XMas.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C6212A1AED44590032D3C9 /* XMas.png */; };
+		A5C621361AED91810032D3C9 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C6212F1AED91810032D3C9 /* MenuViewController.m */; };
+		A5C621371AED91810032D3C9 /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C621311AED91810032D3C9 /* AboutMeViewController.m */; };
+		A5C621381AED91810032D3C9 /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C621331AED91810032D3C9 /* ProjectsViewController.m */; };
+		A5C621391AED91810032D3C9 /* ExperienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C621351AED91810032D3C9 /* ExperienceViewController.m */; };
+		A5EB82EB1AECD44C001C34E1 /* About Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5EB82E71AECD44C001C34E1 /* About Me.mp3 */; };
+		A5EB82EC1AECD44C001C34E1 /* Experience.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5EB82E81AECD44C001C34E1 /* Experience.mp3 */; };
+		A5EB82ED1AECD44C001C34E1 /* Introduction.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5EB82E91AECD44C001C34E1 /* Introduction.mp3 */; };
+		A5EB82EE1AECD44C001C34E1 /* Projects.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5EB82EA1AECD44C001C34E1 /* Projects.mp3 */; };
+		A5EB82F01AECD694001C34E1 /* VSCO.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB82EF1AECD694001C34E1 /* VSCO.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5057FFE1ADDD694002905CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5057FE01ADDD694002905CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5057FE71ADDD694002905CA;
+			remoteInfo = "Amit Kalra";
+		};
+		A532B5941AE9FEBB004EF0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5057FE01ADDD694002905CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A532B5881AE9FEBB004EF0DD;
+			remoteInfo = "Amit Nivedan Kalra";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A532B59A1AE9FEBB004EF0DD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A532B5961AE9FEBB004EF0DD /* Amit Nivedan Kalra.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5057FE81ADDD694002905CA /* Amit Kalra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amit Kalra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5057FEC1ADDD694002905CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5057FED1ADDD694002905CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5057FEF1ADDD694002905CA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A5057FF21ADDD694002905CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5057FF41ADDD694002905CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5057FFD1ADDD694002905CA /* Amit KalraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amit KalraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50580021ADDD694002905CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50580031ADDD694002905CA /* Amit_KalraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amit_KalraTests.swift; sourceTree = "<group>"; };
+		A505800D1ADDD6D0002905CA /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		A505800F1ADDD6DA002905CA /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		A50580111ADDD6E4002905CA /* ExperienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
+		A50580191ADDDDEF002905CA /* Amit Kalra Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amit Kalra Icon.png"; sourceTree = "<group>"; };
+		A505801C1ADDDDEF002905CA /* Amit Nivedan Kalra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amit Nivedan Kalra.jpg"; sourceTree = "<group>"; };
+		A505801E1ADDDDEF002905CA /* AMS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AMS.jpg; sourceTree = "<group>"; };
+		A50580201ADDDDEF002905CA /* Backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Backward.png; sourceTree = "<group>"; };
+		A50580231ADDDDEF002905CA /* Blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blur.jpg; sourceTree = "<group>"; };
+		A50580271ADDDDEF002905CA /* Eastin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eastin.png; sourceTree = "<group>"; };
+		A50580281ADDDDEF002905CA /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook.png; sourceTree = "<group>"; };
+		A505802A1ADDDDEF002905CA /* Github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Github.png; sourceTree = "<group>"; };
+		A505802D1ADDDDEF002905CA /* India Selfie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "India Selfie.jpg"; sourceTree = "<group>"; };
+		A505802E1ADDDDEF002905CA /* Instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instagram.png; sourceTree = "<group>"; };
+		A50580301ADDDDEF002905CA /* Logan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logan.jpeg; sourceTree = "<group>"; };
+		A50580311ADDDDEF002905CA /* Lua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lua.png; sourceTree = "<group>"; };
+		A50580331ADDDDEF002905CA /* Parkour City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parkour City.png"; sourceTree = "<group>"; };
+		A50580381ADDDDEF002905CA /* San Fran Selfie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "San Fran Selfie.jpg"; sourceTree = "<group>"; };
+		A505803A1ADDDDEF002905CA /* Sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sound.png; sourceTree = "<group>"; };
+		A505803C1ADDDDEF002905CA /* Swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swift.png; sourceTree = "<group>"; };
+		A505803F1ADDDDEF002905CA /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		A50580401ADDDDEF002905CA /* Web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Web.png; sourceTree = "<group>"; };
+		A50580701ADDDECE002905CA /* YouTube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouTube.png; sourceTree = "<group>"; };
+		A50580761ADDE3B2002905CA /* Avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Avatar.jpg; sourceTree = "<group>"; };
+		A50580811ADDEC63002905CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A50580851ADDEEC4002905CA /* SF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SF.jpg; sourceTree = "<group>"; };
+		A5184BF61AE1F0F400923560 /* Apple Jumps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple Jumps.png"; sourceTree = "<group>"; };
+		A5184BF81AE1F92800923560 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A5184BFE1AE5DA3A00923560 /* CSS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CSS.png; sourceTree = "<group>"; };
+		A5184C001AE5DA5100923560 /* HTML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HTML.png; sourceTree = "<group>"; };
+		A532B5891AE9FEBB004EF0DD /* Amit Nivedan Kalra.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Amit Nivedan Kalra.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A532B58B1AE9FEBB004EF0DD /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		A532B58F1AE9FEBB004EF0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A532B5901AE9FEBB004EF0DD /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		A532B5921AE9FEBB004EF0DD /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		A532B6711AEB3165004EF0DD /* Design.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Design.jpg; sourceTree = "<group>"; };
+		A5C6211A1AECF0E00032D3C9 /* Air Amit.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Air Amit.JPG"; sourceTree = "<group>"; };
+		A5C6211B1AECF0E00032D3C9 /* Ball.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ball.JPG; sourceTree = "<group>"; };
+		A5C6211C1AECF0E00032D3C9 /* BTS.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BTS.JPG; sourceTree = "<group>"; };
+		A5C6211D1AECF0E00032D3C9 /* On the phone.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "On the phone.JPG"; sourceTree = "<group>"; };
+		A5C621221AECF1CA0032D3C9 /* iPhone Photography.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone Photography.JPG"; sourceTree = "<group>"; };
+		A5C621241AECF47D0032D3C9 /* Snapchat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snapchat.png; sourceTree = "<group>"; };
+		A5C621251AECF47D0032D3C9 /* Stack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stack.png; sourceTree = "<group>"; };
+		A5C621281AED3DD80032D3C9 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A5C6212A1AED44590032D3C9 /* XMas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XMas.png; sourceTree = "<group>"; };
+		A5C6212D1AED91800032D3C9 /* Amit Kalra-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Amit Kalra-Bridging-Header.h"; sourceTree = "<group>"; };
+		A5C6212E1AED91810032D3C9 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		A5C6212F1AED91810032D3C9 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		A5C621301AED91810032D3C9 /* AboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMeViewController.h; sourceTree = "<group>"; };
+		A5C621311AED91810032D3C9 /* AboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMeViewController.m; sourceTree = "<group>"; };
+		A5C621321AED91810032D3C9 /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectsViewController.h; sourceTree = "<group>"; };
+		A5C621331AED91810032D3C9 /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectsViewController.m; sourceTree = "<group>"; };
+		A5C621341AED91810032D3C9 /* ExperienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExperienceViewController.h; sourceTree = "<group>"; };
+		A5C621351AED91810032D3C9 /* ExperienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExperienceViewController.m; sourceTree = "<group>"; };
+		A5EB82E71AECD44C001C34E1 /* About Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "About Me.mp3"; sourceTree = "<group>"; };
+		A5EB82E81AECD44C001C34E1 /* Experience.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Experience.mp3; sourceTree = "<group>"; };
+		A5EB82E91AECD44C001C34E1 /* Introduction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Introduction.mp3; sourceTree = "<group>"; };
+		A5EB82EA1AECD44C001C34E1 /* Projects.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Projects.mp3; sourceTree = "<group>"; };
+		A5EB82EF1AECD694001C34E1 /* VSCO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VSCO.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5057FE51ADDD694002905CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5184BF91AE1F92800923560 /* MapKit.framework in Frameworks */,
+				A50580821ADDEC63002905CA /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5057FFA1ADDD694002905CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A532B5861AE9FEBB004EF0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A532B58C1AE9FEBB004EF0DD /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5057FDF1ADDD694002905CA = {
+			isa = PBXGroup;
+			children = (
+				A5C621281AED3DD80032D3C9 /* README */,
+				A5057FEA1ADDD694002905CA /* Amit Kalra */,
+				A50580001ADDD694002905CA /* Amit KalraTests */,
+				A532B58A1AE9FEBB004EF0DD /* Frameworks */,
+				A5057FE91ADDD694002905CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5057FE91ADDD694002905CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5057FE81ADDD694002905CA /* Amit Kalra.app */,
+				A5057FFD1ADDD694002905CA /* Amit KalraTests.xctest */,
+				A532B5891AE9FEBB004EF0DD /* Amit Nivedan Kalra.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5057FEA1ADDD694002905CA /* Amit Kalra */ = {
+			isa = PBXGroup;
+			children = (
+				A50580131ADDD722002905CA /* Swift Controllers */,
+				A5C6212C1AED915F0032D3C9 /* Objective C Controllers */,
+				A50580841ADDEE4E002905CA /* Storyboards */,
+				A50580801ADDEBF0002905CA /* App Delegate */,
+				A5057FF41ADDD694002905CA /* Images.xcassets */,
+				A5057FEB1ADDD694002905CA /* Supporting Files */,
+			);
+			path = "Amit Kalra";
+			sourceTree = "<group>";
+		};
+		A5057FEB1ADDD694002905CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A50580141ADDDD95002905CA /* Images */,
+				A50580151ADDDD9C002905CA /* Sounds */,
+				A50580831ADDEC71002905CA /* Frameworks */,
+				A5057FEC1ADDD694002905CA /* Info.plist */,
+				A532B58D1AE9FEBB004EF0DD /* Amit Nivedan Kalra */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A50580001ADDD694002905CA /* Amit KalraTests */ = {
+			isa = PBXGroup;
+			children = (
+				A50580031ADDD694002905CA /* Amit_KalraTests.swift */,
+				A50580011ADDD694002905CA /* Supporting Files */,
+			);
+			path = "Amit KalraTests";
+			sourceTree = "<group>";
+		};
+		A50580011ADDD694002905CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A50580021ADDD694002905CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A50580131ADDD722002905CA /* Swift Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A505800D1ADDD6D0002905CA /* AboutMeViewController.swift */,
+				A50580111ADDD6E4002905CA /* ExperienceViewController.swift */,
+				A5057FEF1ADDD694002905CA /* MenuViewController.swift */,
+				A505800F1ADDD6DA002905CA /* ProjectsViewController.swift */,
+			);
+			name = "Swift Controllers";
+			sourceTree = "<group>";
+		};
+		A50580141ADDDD95002905CA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A5C6211A1AECF0E00032D3C9 /* Air Amit.JPG */,
+				A50580191ADDDDEF002905CA /* Amit Kalra Icon.png */,
+				A505801C1ADDDDEF002905CA /* Amit Nivedan Kalra.jpg */,
+				A505801E1ADDDDEF002905CA /* AMS.jpg */,
+				A5184BF61AE1F0F400923560 /* Apple Jumps.png */,
+				A50580761ADDE3B2002905CA /* Avatar.jpg */,
+				A50580201ADDDDEF002905CA /* Backward.png */,
+				A5C6211B1AECF0E00032D3C9 /* Ball.JPG */,
+				A50580231ADDDDEF002905CA /* Blur.jpg */,
+				A5C6211C1AECF0E00032D3C9 /* BTS.JPG */,
+				A5184BFE1AE5DA3A00923560 /* CSS.png */,
+				A532B6711AEB3165004EF0DD /* Design.jpg */,
+				A50580271ADDDDEF002905CA /* Eastin.png */,
+				A50580281ADDDDEF002905CA /* Facebook.png */,
+				A505802A1ADDDDEF002905CA /* Github.png */,
+				A5184C001AE5DA5100923560 /* HTML.png */,
+				A505802D1ADDDDEF002905CA /* India Selfie.jpg */,
+				A505802E1ADDDDEF002905CA /* Instagram.png */,
+				A5C621221AECF1CA0032D3C9 /* iPhone Photography.JPG */,
+				A50580301ADDDDEF002905CA /* Logan.jpeg */,
+				A50580311ADDDDEF002905CA /* Lua.png */,
+				A5C6211D1AECF0E00032D3C9 /* On the phone.JPG */,
+				A50580331ADDDDEF002905CA /* Parkour City.png */,
+				A50580381ADDDDEF002905CA /* San Fran Selfie.jpg */,
+				A50580851ADDEEC4002905CA /* SF.jpg */,
+				A5C621241AECF47D0032D3C9 /* Snapchat.png */,
+				A505803A1ADDDDEF002905CA /* Sound.png */,
+				A5C621251AECF47D0032D3C9 /* Stack.png */,
+				A505803C1ADDDDEF002905CA /* Swift.png */,
+				A505803F1ADDDDEF002905CA /* Twitter.png */,
+				A5EB82EF1AECD694001C34E1 /* VSCO.png */,
+				A50580401ADDDDEF002905CA /* Web.png */,
+				A5C6212A1AED44590032D3C9 /* XMas.png */,
+				A50580701ADDDECE002905CA /* YouTube.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A50580151ADDDD9C002905CA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB82E71AECD44C001C34E1 /* About Me.mp3 */,
+				A5EB82E81AECD44C001C34E1 /* Experience.mp3 */,
+				A5EB82E91AECD44C001C34E1 /* Introduction.mp3 */,
+				A5EB82EA1AECD44C001C34E1 /* Projects.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		A50580801ADDEBF0002905CA /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A5057FED1ADDD694002905CA /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		A50580831ADDEC71002905CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A50580811ADDEC63002905CA /* AVFoundation.framework */,
+				A5184BF81AE1F92800923560 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A50580841ADDEE4E002905CA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A5057FF11ADDD694002905CA /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		A532B58A1AE9FEBB004EF0DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A532B58B1AE9FEBB004EF0DD /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A532B58D1AE9FEBB004EF0DD /* Amit Nivedan Kalra */ = {
+			isa = PBXGroup;
+			children = (
+				A532B5901AE9FEBB004EF0DD /* TodayViewController.swift */,
+				A532B5921AE9FEBB004EF0DD /* MainInterface.storyboard */,
+				A532B58E1AE9FEBB004EF0DD /* Supporting Files */,
+			);
+			name = "Amit Nivedan Kalra";
+			path = "../Amit Nivedan Kalra";
+			sourceTree = "<group>";
+		};
+		A532B58E1AE9FEBB004EF0DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A532B58F1AE9FEBB004EF0DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5C6212C1AED915F0032D3C9 /* Objective C Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5C621301AED91810032D3C9 /* AboutMeViewController.h */,
+				A5C621311AED91810032D3C9 /* AboutMeViewController.m */,
+				A5C6212D1AED91800032D3C9 /* Amit Kalra-Bridging-Header.h */,
+				A5C621341AED91810032D3C9 /* ExperienceViewController.h */,
+				A5C621351AED91810032D3C9 /* ExperienceViewController.m */,
+				A5C6212E1AED91810032D3C9 /* MenuViewController.h */,
+				A5C6212F1AED91810032D3C9 /* MenuViewController.m */,
+				A5C621321AED91810032D3C9 /* ProjectsViewController.h */,
+				A5C621331AED91810032D3C9 /* ProjectsViewController.m */,
+			);
+			name = "Objective C Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5057FE71ADDD694002905CA /* Amit Kalra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50580071ADDD694002905CA /* Build configuration list for PBXNativeTarget "Amit Kalra" */;
+			buildPhases = (
+				A5057FE41ADDD694002905CA /* Sources */,
+				A5057FE51ADDD694002905CA /* Frameworks */,
+				A5057FE61ADDD694002905CA /* Resources */,
+				A532B59A1AE9FEBB004EF0DD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A532B5951AE9FEBB004EF0DD /* PBXTargetDependency */,
+			);
+			name = "Amit Kalra";
+			productName = "Amit Kalra";
+			productReference = A5057FE81ADDD694002905CA /* Amit Kalra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5057FFC1ADDD694002905CA /* Amit KalraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A505800A1ADDD694002905CA /* Build configuration list for PBXNativeTarget "Amit KalraTests" */;
+			buildPhases = (
+				A5057FF91ADDD694002905CA /* Sources */,
+				A5057FFA1ADDD694002905CA /* Frameworks */,
+				A5057FFB1ADDD694002905CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5057FFF1ADDD694002905CA /* PBXTargetDependency */,
+			);
+			name = "Amit KalraTests";
+			productName = "Amit KalraTests";
+			productReference = A5057FFD1ADDD694002905CA /* Amit KalraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A532B5881AE9FEBB004EF0DD /* Amit Nivedan Kalra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A532B5991AE9FEBB004EF0DD /* Build configuration list for PBXNativeTarget "Amit Nivedan Kalra" */;
+			buildPhases = (
+				A532B5851AE9FEBB004EF0DD /* Sources */,
+				A532B5861AE9FEBB004EF0DD /* Frameworks */,
+				A532B5871AE9FEBB004EF0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amit Nivedan Kalra";
+			productName = "Amit Nivedan Kalra";
+			productReference = A532B5891AE9FEBB004EF0DD /* Amit Nivedan Kalra.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5057FE01ADDD694002905CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Amit Kalra";
+				TargetAttributes = {
+					A5057FE71ADDD694002905CA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A5057FFC1ADDD694002905CA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A5057FE71ADDD694002905CA;
+					};
+					A532B5881AE9FEBB004EF0DD = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A5057FE31ADDD694002905CA /* Build configuration list for PBXProject "Amit Kalra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5057FDF1ADDD694002905CA;
+			productRefGroup = A5057FE91ADDD694002905CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5057FE71ADDD694002905CA /* Amit Kalra */,
+				A5057FFC1ADDD694002905CA /* Amit KalraTests */,
+				A532B5881AE9FEBB004EF0DD /* Amit Nivedan Kalra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5057FE61ADDD694002905CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C621261AECF47D0032D3C9 /* Snapchat.png in Resources */,
+				A505805D1ADDDDEF002905CA /* Lua.png in Resources */,
+				A50580711ADDDECE002905CA /* YouTube.png in Resources */,
+				A5057FF31ADDD694002905CA /* Main.storyboard in Resources */,
+				A5C621211AECF0E00032D3C9 /* On the phone.JPG in Resources */,
+				A5184BF71AE1F0F400923560 /* Apple Jumps.png in Resources */,
+				A50580481ADDDDEF002905CA /* Amit Nivedan Kalra.jpg in Resources */,
+				A505804A1ADDDDEF002905CA /* AMS.jpg in Resources */,
+				A50580641ADDDDEF002905CA /* San Fran Selfie.jpg in Resources */,
+				A5184BFF1AE5DA3A00923560 /* CSS.png in Resources */,
+				A5C621231AECF1CA0032D3C9 /* iPhone Photography.JPG in Resources */,
+				A5057FF51ADDD694002905CA /* Images.xcassets in Resources */,
+				A5C621271AECF47D0032D3C9 /* Stack.png in Resources */,
+				A50580771ADDE3B2002905CA /* Avatar.jpg in Resources */,
+				A5EB82EB1AECD44C001C34E1 /* About Me.mp3 in Resources */,
+				A5C6211E1AECF0E00032D3C9 /* Air Amit.JPG in Resources */,
+				A50580531ADDDDEF002905CA /* Eastin.png in Resources */,
+				A5EB82EC1AECD44C001C34E1 /* Experience.mp3 in Resources */,
+				A5C621201AECF0E00032D3C9 /* BTS.JPG in Resources */,
+				A5EB82ED1AECD44C001C34E1 /* Introduction.mp3 in Resources */,
+				A505804C1ADDDDEF002905CA /* Backward.png in Resources */,
+				A532B6741AEB3165004EF0DD /* Design.jpg in Resources */,
+				A50580861ADDEEC4002905CA /* SF.jpg in Resources */,
+				A505804F1ADDDDEF002905CA /* Blur.jpg in Resources */,
+				A50580661ADDDDEF002905CA /* Sound.png in Resources */,
+				A50580561ADDDDEF002905CA /* Github.png in Resources */,
+				A50580541ADDDDEF002905CA /* Facebook.png in Resources */,
+				A505805C1ADDDDEF002905CA /* Logan.jpeg in Resources */,
+				A5C6211F1AECF0E00032D3C9 /* Ball.JPG in Resources */,
+				A5EB82F01AECD694001C34E1 /* VSCO.png in Resources */,
+				A5C621291AED3DD80032D3C9 /* README in Resources */,
+				A5C6212B1AED44590032D3C9 /* XMas.png in Resources */,
+				A505806B1ADDDDEF002905CA /* Twitter.png in Resources */,
+				A50580591ADDDDEF002905CA /* India Selfie.jpg in Resources */,
+				A505805F1ADDDDEF002905CA /* Parkour City.png in Resources */,
+				A5184C011AE5DA5100923560 /* HTML.png in Resources */,
+				A505806C1ADDDDEF002905CA /* Web.png in Resources */,
+				A50580681ADDDDEF002905CA /* Swift.png in Resources */,
+				A505805A1ADDDDEF002905CA /* Instagram.png in Resources */,
+				A5EB82EE1AECD44C001C34E1 /* Projects.mp3 in Resources */,
+				A50580451ADDDDEF002905CA /* Amit Kalra Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5057FFB1ADDD694002905CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A532B5871AE9FEBB004EF0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A532B5931AE9FEBB004EF0DD /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5057FE41ADDD694002905CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50580101ADDD6DA002905CA /* ProjectsViewController.swift in Sources */,
+				A5C621361AED91810032D3C9 /* MenuViewController.m in Sources */,
+				A5057FF01ADDD694002905CA /* MenuViewController.swift in Sources */,
+				A50580121ADDD6E4002905CA /* ExperienceViewController.swift in Sources */,
+				A5C621381AED91810032D3C9 /* ProjectsViewController.m in Sources */,
+				A5C621371AED91810032D3C9 /* AboutMeViewController.m in Sources */,
+				A505800E1ADDD6D0002905CA /* AboutMeViewController.swift in Sources */,
+				A5C621391AED91810032D3C9 /* ExperienceViewController.m in Sources */,
+				A5057FEE1ADDD694002905CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5057FF91ADDD694002905CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50580041ADDD694002905CA /* Amit_KalraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A532B5851AE9FEBB004EF0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A532B5911AE9FEBB004EF0DD /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5057FFF1ADDD694002905CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5057FE71ADDD694002905CA /* Amit Kalra */;
+			targetProxy = A5057FFE1ADDD694002905CA /* PBXContainerItemProxy */;
+		};
+		A532B5951AE9FEBB004EF0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A532B5881AE9FEBB004EF0DD /* Amit Nivedan Kalra */;
+			targetProxy = A532B5941AE9FEBB004EF0DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5057FF11ADDD694002905CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5057FF21ADDD694002905CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A50580051ADDD694002905CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A50580061ADDD694002905CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50580081ADDD694002905CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Amit Kalra/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Amit Kalra/Amit Kalra-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A50580091ADDD694002905CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Amit Kalra/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Amit Kalra/Amit Kalra-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A505800B1ADDD694002905CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Amit KalraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amit Kalra.app/Amit Kalra";
+			};
+			name = Debug;
+		};
+		A505800C1ADDD694002905CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Amit KalraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amit Kalra.app/Amit Kalra";
+			};
+			name = Release;
+		};
+		A532B5971AE9FEBB004EF0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Amit Nivedan Kalra/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A532B5981AE9FEBB004EF0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Amit Nivedan Kalra/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5057FE31ADDD694002905CA /* Build configuration list for PBXProject "Amit Kalra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50580051ADDD694002905CA /* Debug */,
+				A50580061ADDD694002905CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50580071ADDD694002905CA /* Build configuration list for PBXNativeTarget "Amit Kalra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50580081ADDD694002905CA /* Debug */,
+				A50580091ADDD694002905CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A505800A1ADDD694002905CA /* Build configuration list for PBXNativeTarget "Amit KalraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A505800B1ADDD694002905CA /* Debug */,
+				A505800C1ADDD694002905CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A532B5991AE9FEBB004EF0DD /* Build configuration list for PBXNativeTarget "Amit Nivedan Kalra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A532B5971AE9FEBB004EF0DD /* Debug */,
+				A532B5981AE9FEBB004EF0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5057FE01ADDD694002905CA /* Project object */;
+}
